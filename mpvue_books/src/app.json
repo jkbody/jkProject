@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/comment/main",
+    "pages/me/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#00bcd4",
+    "navigationBarTitleText": "思书",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#00bcd4",
+    "borderStyle": "white",
+    "list": [{
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/img/book.png",
+      "selectedIconPath": "static/img/book-active.png"
+    },{
+      "text": "评论",
+      "pagePath": "pages/comment/main",
+      "iconPath": "static/img/todo.png",
+      "selectedIconPath": "static/img/todo-active.png"
+    },{
+      "text": "我",
+      "pagePath": "pages/me/main",
+      "iconPath": "static/img/me.png",
+      "selectedIconPath": "static/img/me-active.png"
+    }]
+  },
+    "position": "bottom"
+}
